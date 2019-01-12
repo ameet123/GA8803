@@ -8,7 +8,7 @@ def optimal_penalty(a):
     for i in range(1, len(a)):
         opt_i_pen = pen(a[i])
         opt_j = -1
-        for j in range(0, i - 1):
+        for j in range(0, i ):
             cur_prev_pen = P[j] + pen(a[i] - a[j])
 
             if cur_prev_pen < opt_i_pen:
