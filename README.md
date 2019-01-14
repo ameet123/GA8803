@@ -45,7 +45,8 @@ The 1-D array is initialized with the tree for the first node. The array is fill
 algorithm computes the optimal tree at each index.
 + *pseudocode*:<br>
 ```text
- 1. Let f = { f<sub>1</sub>, f<sub>2</sub>, ..., f<sub>n</sub> } frequencies of words in alphabetically ascending order. 
+ 1. Let f = { f<sub>1</sub>, f<sub>2</sub>, ..., f<sub>n</sub> } ,
+                            frequencies of words in alphabetically ascending order. 
  2. Initialize 1-D array T(0) = tree(0), tree(0) is the tree with just the first word.
  3. for i: 1-> n, n = # of words
  4.     prev_tree = T(i-1)
